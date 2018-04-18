@@ -40,7 +40,7 @@ def eval_input_fn(features, labels, batch_size):
     # Return the read end of the pipeline.
     return dataset.make_one_shot_iterator().get_next()
 
-
+tf.logging.set_verbosity(tf.logging.INFO)
 
 
 CSV_COLUMN_NAMES = ['SepalLength', 'SepalWidth',
@@ -49,7 +49,7 @@ CSV_COLUMN_NAMES = ['SepalLength', 'SepalWidth',
 SPECIES = ['Sentosa', 'Versicolor', 'Virginica']
 y_name='Species'
 batch_size = 100
-train_steps = 2000
+train_steps = 1000
 
 train = pd.read_csv('Data/iris_training.csv', names=CSV_COLUMN_NAMES, header=0)
 train_x, train_y = train, train.pop(y_name)
