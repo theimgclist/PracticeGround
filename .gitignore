@@ -5,3 +5,4 @@ datasets/
 *checkpoint.ipynb
 *.pckl
 *.png
+dataset/
