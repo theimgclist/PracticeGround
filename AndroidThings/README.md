@@ -57,8 +57,8 @@ I connected to wifi using the launcher and it worked.
 Now the version is 1.0.1 and I can access camera directly from launcher and also check rainbow hat. It blinks colors.  
 
 [https://github.com/androidthings/sample-tensorflow-imageclassifier/archive/master.zip]  
-**If you have tried the previous sample, remember to uninstall it before continuing, so that one does not interfere with the other:
-^^ I should keep track of what apps im installing on AT. so that i can use adb uninstall package to uninstall it before installing another.**  
+**If you have tried the previous sample, remember to uninstall it before continuing, so that one does not interfere with the other:**  
+I should keep track of what apps im installing on AT. so that i can use adb uninstall package to uninstall it before installing another.   
 FInally, some project that worked. It is an image classifier, it doesn't do well on all classes of objects, but yea its working atleast!!
 
 Now flashing the new pico, its current version is 0.8.1 devpreview  
