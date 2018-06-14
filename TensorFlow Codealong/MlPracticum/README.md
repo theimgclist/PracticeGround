@@ -40,4 +40,8 @@ These representations carry increasingly less information about the original pix
 
 verbose=0 will show you nothing (silent),verbose=1 will show you an animated progress bar, 'verbose=2' will just mention the number of epoch  
 
+Below image shows how the features learn in different layers:  
+![](images/filterviz.jpeg)
+
+
  
