@@ -46,3 +46,8 @@ The images look very similar, but check the last digit 4, there is a noticeable 
 •	Use cases of Autoencoders - Data denoising: we have seen an example of this on images.  
 •	dimensionality reduction: visualizing high-dimensional data is challenging. t-SNE is the most commonly used method but struggles with large number of dimensions (typically above 32). So autoencoders are used as a preprocessing step to reduce the dimensionality, and this compressed representation is used by t-SNE to visualize the data in 2D space  
 •	Variational Autoencoders (VAE): VAE learns the parameters of the probability distribution modeling the input data, instead of learning an arbitrary function in the case of vanilla autoencoders. By sampling points from this distribution we can also use the VAE as a generative model  
+
+
+**Update 1:** - Author of the blog also published a notebook that has the code to run and try autoencoders. He used MNIST dataset.  I ran through the code on Colab and it worked without any issues.  
+
+**Update 2:** The same author has written few more articles on Medium. The one about CNN is in-depth and very illustrative. He shared a notebook which has code for creating vizualisations for features, feature maps and outputs.
